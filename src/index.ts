@@ -2,4 +2,4 @@ export enum TestEnum {
   A = '1', B = '2'
 }
 
-export const allTestValues = Object.values(TestEnum);
+export const allTestValues = Object.values<TestEnum>(TestEnum);
